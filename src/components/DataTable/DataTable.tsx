@@ -93,7 +93,7 @@ export const DataTable =  () => {
           <DialogTitle id="form-dialog-title">Update A Drone</DialogTitle>
           <DialogContent>
             <DialogContentText>Drone id: {gridData[0]}</DialogContentText>
-              <HeroForm></HeroForm>
+              <HeroForm id={`${gridData[0]}`}></HeroForm>
           </DialogContent>
           <DialogActions>
             <Button onClick = {handleClose} color="primary">Cancel</Button>
